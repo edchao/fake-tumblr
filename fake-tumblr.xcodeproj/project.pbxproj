@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30698D91AA9410F001DEA01 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30698D81AA9410F001DEA01 /* FadeTransition.swift */; };
+		F30698DB1AA9411B001DEA01 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30698DA1AA9411B001DEA01 /* BaseTransition.swift */; };
 		F38DFA981AA57A5000FD2049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFA971AA57A5000FD2049 /* AppDelegate.swift */; };
 		F38DFA9A1AA57A5000FD2049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFA991AA57A5000FD2049 /* ViewController.swift */; };
 		F38DFA9D1AA57A5000FD2049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38DFA9B1AA57A5000FD2049 /* Main.storyboard */; };
 		F38DFA9F1AA57A5000FD2049 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DFA9E1AA57A5000FD2049 /* Images.xcassets */; };
 		F38DFAA21AA57A5000FD2049 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38DFAA01AA57A5000FD2049 /* LaunchScreen.xib */; };
 		F38DFAAE1AA57A5000FD2049 /* fake_tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFAAD1AA57A5000FD2049 /* fake_tumblrTests.swift */; };
+		F38DFAB81AA57D9400FD2049 /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFAB71AA57D9400FD2049 /* tabViewController.swift */; };
+		F38DFABB1AA57FBF00FD2049 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFABA1AA57FBF00FD2049 /* homeViewController.swift */; };
+		F38DFABD1AA57FC800FD2049 /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFABC1AA57FC800FD2049 /* accountViewController.swift */; };
+		F38DFABF1AA57FD000FD2049 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFABE1AA57FD000FD2049 /* searchViewController.swift */; };
+		F38DFAC11AA57FDF00FD2049 /* trendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFAC01AA57FDF00FD2049 /* trendingViewController.swift */; };
+		F38DFAC31AA5845100FD2049 /* composeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DFAC21AA5845100FD2049 /* composeViewController.swift */; };
+		F3A702D91AAD10BC0037C879 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A702D81AAD10BC0037C879 /* loginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F30698D81AA9410F001DEA01 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		F30698DA1AA9411B001DEA01 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		F38DFA921AA57A5000FD2049 /* fake-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38DFA961AA57A5000FD2049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F38DFA971AA57A5000FD2049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,13 @@
 		F38DFAA71AA57A5000FD2049 /* fake-tumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fake-tumblrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38DFAAC1AA57A5000FD2049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F38DFAAD1AA57A5000FD2049 /* fake_tumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fake_tumblrTests.swift; sourceTree = "<group>"; };
+		F38DFAB71AA57D9400FD2049 /* tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		F38DFABA1AA57FBF00FD2049 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		F38DFABC1AA57FC800FD2049 /* accountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
+		F38DFABE1AA57FD000FD2049 /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		F38DFAC01AA57FDF00FD2049 /* trendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendingViewController.swift; sourceTree = "<group>"; };
+		F38DFAC21AA5845100FD2049 /* composeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = composeViewController.swift; sourceTree = "<group>"; };
+		F3A702D81AAD10BC0037C879 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 				F38DFA971AA57A5000FD2049 /* AppDelegate.swift */,
 				F38DFA991AA57A5000FD2049 /* ViewController.swift */,
 				F38DFA9B1AA57A5000FD2049 /* Main.storyboard */,
+				F38DFAB91AA57F9000FD2049 /* View Controllers */,
 				F38DFA9E1AA57A5000FD2049 /* Images.xcassets */,
 				F38DFAA01AA57A5000FD2049 /* LaunchScreen.xib */,
 				F38DFA951AA57A5000FD2049 /* Supporting Files */,
@@ -110,6 +129,22 @@
 				F38DFAAC1AA57A5000FD2049 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38DFAB91AA57F9000FD2049 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F30698DA1AA9411B001DEA01 /* BaseTransition.swift */,
+				F30698D81AA9410F001DEA01 /* FadeTransition.swift */,
+				F3A702D81AAD10BC0037C879 /* loginViewController.swift */,
+				F38DFAB71AA57D9400FD2049 /* tabViewController.swift */,
+				F38DFABA1AA57FBF00FD2049 /* homeViewController.swift */,
+				F38DFABC1AA57FC800FD2049 /* accountViewController.swift */,
+				F38DFAC21AA5845100FD2049 /* composeViewController.swift */,
+				F38DFABE1AA57FD000FD2049 /* searchViewController.swift */,
+				F38DFAC01AA57FDF00FD2049 /* trendingViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +248,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38DFA9A1AA57A5000FD2049 /* ViewController.swift in Sources */,
+				F3A702D91AAD10BC0037C879 /* loginViewController.swift in Sources */,
+				F30698DB1AA9411B001DEA01 /* BaseTransition.swift in Sources */,
+				F30698D91AA9410F001DEA01 /* FadeTransition.swift in Sources */,
+				F38DFAB81AA57D9400FD2049 /* tabViewController.swift in Sources */,
+				F38DFABF1AA57FD000FD2049 /* searchViewController.swift in Sources */,
+				F38DFAC31AA5845100FD2049 /* composeViewController.swift in Sources */,
 				F38DFA981AA57A5000FD2049 /* AppDelegate.swift in Sources */,
+				F38DFAC11AA57FDF00FD2049 /* trendingViewController.swift in Sources */,
+				F38DFABD1AA57FC800FD2049 /* accountViewController.swift in Sources */,
+				F38DFABB1AA57FBF00FD2049 /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 				F38DFAB31AA57A5000FD2049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F38DFAB41AA57A5000FD2049 /* Build configuration list for PBXNativeTarget "fake-tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				F38DFAB61AA57A5000FD2049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
